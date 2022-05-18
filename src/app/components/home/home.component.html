@@ -10,21 +10,46 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&family=Roboto+Condensed:wght@300&family=Roboto+Serif:wght@500&display=swap"
-      rel="stylesheet">
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500&family=Roboto+Condensed:wght@300&family=Roboto+Serif:wght@500&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
+  <section class="rental_info">
+    <div class="mb-3 row">
+      <label for="typeahead-prevent-manual-entry" class="col-xs-3 col-sm-auto col-form-label">Search for a House:</label>
+      <div class="col">
+        <input id="typeahead-prevent-manual-entry" type="text" class="form-control" placeholder="search for House.."/>
+      </div>
+    </div>
+  </section>
+  <section class="renters">
+    <div class="rent">
+      <span>FOR RENTERS</span>
+    </div>
+    <div class="heading">Let Our Search Begin.</div>
+    <div class="text_p">
+      Search thousands of up-to-date property listings on our easy-to-use website.
+       Narrow down your options by choosing what's most important to you, such as number of bedrooms and bathrooms,
+        price range, location, pet policy and more.
+Parents can also search for rentals that fall within a particular school district.
+
+    </div>
+    <button class="search" mat-raised-button>Start My Search</button>
+  </section>
   <section class="rental_first">
 
-    <div class="rental_title" *ngFor="let rental of rentals">
-      <img src={{rental.img}} alt="">
-      <p>{{rental['name']}}</p>
-      <p>{{rental['price']}}</p>
-      <button (click)="makePayment()" mat-raised-button>Pay</button>
+    <div  class="rental_title" *ngFor="let rental of rentals">
+
+          <img src={{rental.img}} alt="">
+          <p>{{rental['name']}}</p>
+          <p>{{rental['price']}}</p>
+          <button (click)="makePayment()" mat-raised-button>Pay</button>
+
     </div>
 
   </section>
+
 
 </body>
 

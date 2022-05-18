@@ -5,16 +5,84 @@ html {
 * {
   box-sizing: border-box;
 }
+.rental_info{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  align-items: center;
+}
+.row{
+  margin-top: 25%;
+  margin-left: 25%;
 
+  width:60%;
+  height: 350px;
+}
+.renters{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+
+}
+.rent{
+  border-bottom: 2px solid gray;
+  font-weight: 700;
+  line-height: 0;
+  margin: 10px auto 20px;
+  text-align: center;
+}
+.rent span{
+background: #fff;
+border: 1px solid #aaa;
+border-radius: 2px;
+color: #000a73;
+font-size: 18px;
+font-weight: 900;
+letter-spacing: .8px;
+padding: 1px 8px;
+}
+.heading{
+  color: #121212;
+font-size: 40px;
+font-weight: 900;
+line-height: 24px;
+margin: 37px auto 38px;
+text-align: center;
+}
+
+
+.text_p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height:40%;
+  letter-spacing: 0.1rem;
+  font-size: 16px;
+
+}
+.search{
+  margin-top: 2%;
+background-color: #fff;
+color: grey;
+font-size: 17px;
+line-height: 20px;
+width: 194px;
+height: 194px;
+
+}
 .rental_first{
-margin-top: 7rem;
+margin-top: 17%;
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
-flex-wrap: wrap;
 width: 100%;
 gap:30px;
-height: auto;
+flex-wrap: wrap;
+
+overflow-x: hidden;
 }
 
 p{
@@ -44,7 +112,7 @@ p{
   justify-content: center;
   margin-top: 1rem;
   width: 265px;
-  height: 470px;
+  height: 250px;
 }
 .rental_title:hover {
   box-shadow: 0 8px 26px 0 rgba(0, 0, 0, 0.2);
