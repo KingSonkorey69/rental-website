@@ -65,14 +65,100 @@ text-align: center;
 }
 .search{
   margin-top: 2%;
-background-color: #fff;
-color: grey;
-font-size: 17px;
-line-height: 20px;
-width: 194px;
-height: 194px;
+  background-color:#fff;
+  height: 35%;
+  width: 30%;
+  
 
 }
+
+
+.landlord{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
+}
+.land_title{
+  border-bottom: 1px solid #aaa;
+color: #4e4e4e;
+font-weight: 700;
+line-height: 0;
+margin: 10px auto 20px;
+text-align: center;
+
+}
+.land_title span{
+  background: #fff;
+border: 1px solid #aaa;
+border-radius: 2px;
+color: #000a73;
+font-size: 18px;
+font-weight: 900;
+letter-spacing: .8px;
+padding: 1px 8px;
+}
+.land_info{
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+  align-items: center;
+  justify-content: space-around;
+
+ gap: 8%;
+ margin-left: 20%;
+ background-color: beige;
+}
+.land_first{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+/* .land_first p{
+  text-align: center;
+  font-size: 10px;
+} */
+.land_button{
+  background-color:#fff;
+  height: 35%;
+  width: 50%;
+  margin-left: 25%;
+}
+.land_info_second{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+  align-items: center;
+  justify-content: space-around;
+
+ gap: 8%;
+ margin-left: 20%;
+ background-color: beige;
+}
+.land_info_third{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+  align-items: center;
+  justify-content: space-around;
+ gap: 8%;
+ margin-left: 20%;
+ background-color: beige;
+}
+.land_list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+
 .rental_first{
 margin-top: 17%;
 display: flex;
