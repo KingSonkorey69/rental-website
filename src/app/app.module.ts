@@ -13,6 +13,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,10 +27,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NgbModule,
     MatButtonModule,
     FlutterwaveModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule 
     //FontAwesomeModule
   ],
   providers: [HomeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+ 

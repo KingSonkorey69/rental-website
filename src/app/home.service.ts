@@ -7,6 +7,7 @@ export class HomeService {
 
 
   constructor() { }
+  
   getRentals(){
     return [
       {img:'../assets/images/home1.jpg', name:'House 1',  price:'$200'},

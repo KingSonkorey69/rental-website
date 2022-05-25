@@ -25,7 +25,7 @@
     <div class="mb-3 row">
       <label for="typeahead-prevent-manual-entry" class="col-xs-3 col-sm-auto col-form-label">Search for a House:</label>
       <div class="col">
-        <input id="typeahead-prevent-manual-entry" type="text" class="form-control" placeholder="search for House.."/>
+        <input id="typeahead-prevent-manual-entry" type="text" class="form-control"  placeholder="search for House.."/>
       </div>
       <button class="row_search" mat-flat-button>Search</button>
     </div>
@@ -90,7 +90,7 @@ Parents can also search for rentals that fall within a particular school distric
 </section>
   <section class="rental_first">
 
-    <div  class="rental_title" *ngFor="let rental of rentals">
+    <div  class="rental_title" *ngFor="let rental of rentals" >
 
           <img src={{rental.img}} alt="">
           <p>{{rental['name']}}</p>
